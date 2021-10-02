@@ -1,19 +1,6 @@
-
-# BEGIN WordPress
-# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
-# dynamically generated, and should only be modified via WordPress filters.
-# Any changes to the directives between these markers will be overwritten.
-<IfModule mod_rewrite.c>
+#remove html file extension https://example.com/page.html
+# to https://example.com/page
 RewriteEngine On
-RewriteBase /photowebsite/
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /photowebsite/index.php [L]
-php_value upload_max_filesize 128M
-php_value post_max_size 128M
-php_value max_execution_time 300
-php_value max_input_time 300
-</IfModule>
-
-# END WordPress
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]

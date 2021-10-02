@@ -1,2 +1,1 @@
-# PhotoWebsite
-PhotoWebsite
+# LightLost

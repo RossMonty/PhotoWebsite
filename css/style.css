@@ -1,0 +1,165 @@
+pre { font-family: monospace, monospace; }
+code { font-family: monospace, monospace; font-size: 100%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+  font-size: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%
+}
+
+html {
+  overflow-y: scroll;
+  font-size: 100%;
+}
+
+#home-index {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#site-title {
+  font-size: 30px;
+  padding: 20px;
+}
+
+#site-description {
+  font-size: 12px;
+  padding: 10px;
+}
+
+#site-title, #site-description {
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+  background-color: #111;
+  height: 100px;
+  padding: 20px;
+}
+
+#home-index header {
+  background: linear-gradient(rgba(0,0,0,1),rgba(255,255,255,0));
+}
+
+#site-nav {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+#site-nav ul li {
+  display: inline-block;
+  font-size: 15px;
+  padding: 15px 20px 15px 20px;
+}
+
+#site-nav ul li a {
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+}
+
+#site-nav ul li:hover {
+  color: red;
+}
+
+#about_main {
+  color: #111;
+  font-family: 'Anton', sans-serif;
+  font-size: 1.5rem;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  height: 20px;
+  color: #111;
+  font-family: 'Anton', sans-serif;
+  font-size: 0.75rem;
+}
+
+#home-footer, #about-footer {
+  bottom: 0;
+}
+
+#gallery-page {
+  padding: 5px 150px 0px 150px;
+}
+
+#dgwt-jg-1 {
+  display: inline-block;
+}
+
+@media screen and (max-width: 400px) {
+  #gallery-page {
+    padding: 0;
+  }
+  .footer {
+    font-size: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #gallery-page {
+    padding: 0;
+  }
+}

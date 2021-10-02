@@ -1,0 +1,15 @@
+
+---Downloaded files---
+The import files for: Photograph Free were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = http://localhost/photowebsite
+Data file = C:\wamp64\www\PhotoWebsite\wp-content\plugins\theme-freesia-demo-import\files/dummy/photograph/photograph.wordpress.xml
+Widget file = C:\wamp64\www\PhotoWebsite\wp-content\plugins\theme-freesia-demo-import\files/dummy/photograph/photograph-widgets.wie
+Customizer file = C:\wamp64\www\PhotoWebsite\wp-content\plugins\theme-freesia-demo-import\files/dummy/photograph/photograph-export.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
